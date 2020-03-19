@@ -12,11 +12,9 @@ def nyc_pigeon_organizer(data)
       end
       new_pigeons[name][attributes] << key.to_s
     end
-    binding.pry
   end
   end
   new_pigeons
-  # binding.pry
 end
 
 # pigeon_data = {
